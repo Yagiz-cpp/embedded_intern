@@ -1,0 +1,14 @@
+# arduino-cli build ciktilari
+build/
+*.elf
+*.map
+*.hex
+
+# arduino-cli yerel ayarlari
+sketch.yaml.local
+
+# editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store

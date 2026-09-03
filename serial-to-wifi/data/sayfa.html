@@ -1,0 +1,15 @@
+<!DOCTYPE html><html><head><meta chatset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Sayac</title></head>
+    <body>
+    <h1 id='s'>--</h1>
+    <script>
+    setInterval(async () => {
+        try{
+            const r = await fetch('/veri');
+            document.getElementById('s').textContent = await r.text();
+        } catch (e){}
+    }, 500);
+    </script>
+    </body>
+    </html>

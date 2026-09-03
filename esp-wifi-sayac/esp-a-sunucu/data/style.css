@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #111;
+  color: #eee;
+  padding: 10vh 1rem 3rem;
+}
+
+#sayi {
+  font-size: 25vw;      /* ekran genisliginin %25'i */
+  margin: 0;
+}
+
+#durum {
+  opacity: .6;
+}
+
+button {
+  font-size: 1.1rem;
+  padding: .7rem 1.4rem;
+  margin: .3rem;
+  border: 0;
+  border-radius: 8px;
+  background: #2d6cdf;
+  color: #fff;
+}
+
+h2 {
+  font-size: .8rem;
+  color: #888;
+  margin: 2.5rem 0 .4rem;
+}
+
+/* Log kutusu: <pre> bosluklari ve satir sonlarini korur */
+#log {
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: left;
+  background: #0b0f14;
+  border: 1px solid #232830;
+  border-radius: 8px;
+  padding: .6rem .7rem;
+  font-size: .72rem;
+  line-height: 1.5;
+  color: #b9c0c9;
+  max-height: 200px;
+  overflow: auto;         /* tasarsa kaydirma cubugu */
+  white-space: pre-wrap;  /* uzun satir alta sarsin */
+}
